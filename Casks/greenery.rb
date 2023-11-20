@@ -1,11 +1,12 @@
-cask "greenery" do
+cask "greenery-beta" do
   version "0.9.3"
-  sha256 "cd2b9ae7dd26144d6147536500ce1ccaa2f8b0b5e20f023a7229615c37648fe1" 
+  sha256 "cd2b9ae7dd26144d6147536500ce1ccaa2f8b0b5e20f023a7229615c37648fe1"
 
-  url "https://github.com/GreenfireInc/homebrew-greenery/releases/download/v#{version}/Greenery.zip"
-  name "greenery"
-  desc "A cryptocurrency bookkeeping and accounting wallet."
-  homepage "https://github.com/GreenfireInc/homebrew-greenery/"
+  url "https://github.com/GreenfireInc/Releases.Greenery/releases/download/v#{version}/Greenery.zip",
+      verified: "github.com/GreenfireInc/Releases.Greenery/"
+  name "greenery-beta"
+  desc "Cryptocurrency bookkeeping and accounting wallet"
+  homepage "https://www.greenery.finance/"
 
   app "Greenery.app"
 
